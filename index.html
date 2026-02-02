@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Table</title>
+</head>
+<body>
+
+<h3>Product List</h3>
+
+<select id="option" onchange="applyOption()">
+  <option value="all">Show All</option>
+  <option value="electronics">Electronics</option>
+  <option value="clothing">Clothing</option>
+  <option value="low">Price Low to High</option>
+  <option value="high">Price High to Low</option>
+</select>
+
+<br><br>
+
+<table border="1" cellpadding="8">
+  <tr>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Category</th>
+  </tr>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<script src="ecom.js"></script>
+</body>
+</html>
